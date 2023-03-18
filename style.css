@@ -1,6 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, footer {
+    background: #6C63FF;
+}
+
+header {
+    height: 80px;
+}
+
 .my-button {
     width: 120px;
     height: 40px;
     border: 2px solid #FFFFFF;
     border-radius: 5px;
+    background-color: transparent;
 }
