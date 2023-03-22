@@ -45,6 +45,7 @@ h1, h2, my-button {
     border: 2px solid #E6E6E6;
     border-radius: 5px;
     width: 370px;
+    padding: 46px 20px;
 }
 
 a {
@@ -52,6 +53,15 @@ a {
     text-decoration: none;
 
 }
-section{
+
+section {
     padding: 100px 0px;
+}
+
+.card-image {
+    margin: 40px 0px 36px;
+}
+
+li {
+    padding: 9px 15px;
 }
