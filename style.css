@@ -10,6 +10,15 @@ header, footer {
 
 header {
     height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cards-wrap {
+    display: flex;
+    gap: 15px;
+
 }
 
 .my-button {
@@ -36,6 +45,21 @@ h1 {
     color: #2F2E41;
 }
 
+h2 {
+    max-width: 305px;
+    text-align: center;
+}
+
+footer {
+    padding: 20px 0;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
 h1, h2, my-button {
     text-transform: uppercase;
 }
@@ -46,6 +70,9 @@ h1, h2, my-button {
     border-radius: 5px;
     width: 370px;
     padding: 46px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 a {
